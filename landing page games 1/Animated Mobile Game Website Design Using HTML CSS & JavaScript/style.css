@@ -5,7 +5,9 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #11253b 20%, #92f9fc 180%);
+	background:url(https://i.pinimg.com/originals/2e/78/c7/2e78c79cebbd4632cd41546a3138013e.gif);
+	background-size: cover;
+
 }
 
 section {
@@ -125,7 +127,7 @@ header ul li a:hover
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(img/electro_NAV.png);
+	background-image: url(img/papel\ do\ menu.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,11 +146,11 @@ header ul li a:hover
 	max-width: 620px;
 }
 .content .textBox h2 {
-	color: #92f9fa;
-	font-size: 2.5em;
+	color: #f3f1f1c5;
+	font-size: 3.5em;
 	margin-bottom: 10px;
 	line-height: 1.2em;
-	font-weight: 700;
+	font-weight: 100;
 	font-family: 'Paytone One', sans-serif;
 	opacity: 0;
 	animation: slide_right 0.5s linear forwards;
@@ -166,8 +168,8 @@ header ul li a:hover
 }
 
 .content .textBox p {
-	font-size: 1.2em;
-	color: #92f9fa;
+	font-size: 2.2em;
+	color: #ebf8f8;
 	font-family: 'Nunito Sans', sans-serif;
 	margin: 30px 0 30px 0;
 	opacity: 0;
@@ -237,7 +239,7 @@ header ul li a:hover
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	max-width: 650px;
+	max-width: 1050px;
 	opacity: 0;
 	animation: fade_in 1s linear forwards;
 	animation-delay: 3.5s;
@@ -261,7 +263,7 @@ header ul li a:hover
 @media (max-width:991px) {
 	section {
 		padding: 50px 80px;
-		min-height: 95vh
+		min-height: 100vh
 	}
 	
 	header {
